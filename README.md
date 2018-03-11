@@ -5,7 +5,7 @@
 This pipeline has been designed to visualize maize lateral root length data exported with the [SmartRoot ImageJ plugin](https://smartroot.github.io/).
 
 ## 1.Rstructuration of single root system SmartRoot files
-Script location: `SmartRoot_pipeline/src/SmartRoot_pipeline/1.Rstructuration/SRfiles_to_Rstructured_onePlant.R`
+Script location: `src/SmartRoot_pipeline/1.Rstructuration/SRfiles_to_Rstructured_onePlant.R`
 
 In a first step, basic features are computed for individual roots of single root system image series, such as their root ages or daily root elongation rates. 
 
@@ -14,7 +14,7 @@ Input files are SmartRoot CSV datasets **Global Root Data**, providing informati
 A main output file containing complete information about individual root growth and root diameters is generated at the end of the Rstructuration script and saved under the `data/Rstructured_files` directory. In parallel, a short summary CSV file providing key root system properties for each image acquisition is generated and saved into `data/Summary_files`.
 
 ## 2.RPlots 
-Script location: `SmartRoot_pipeline/src/SmartRoot_pipeline/2.Rplots/Rplots.R`
+Script location: `src/SmartRoot_pipeline/2.Rplots/Rplots.R`
 
 The above mentioned script allows to generate interesting graphics about root growth and/or morphology in a customisable way, and export them into PDF files. Here is the list of currently available graphical representations:
 * Individual *root length* as function of the *date of acquisition*, grouped by distance from the seed into 5 cm primary root sections
