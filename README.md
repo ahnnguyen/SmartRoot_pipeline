@@ -1,6 +1,7 @@
 # SmartRoot pipeline
 * Author: Beatriz Moreno
 * Institute: INRA
+
 This pipeline has been designed to visualize maize lateral root length data exported with the [SmartRoot ImageJ plugin](https://smartroot.github.io/).
 
 ## 1.Rstructuration of single root system SmartRoot files
@@ -24,13 +25,6 @@ The above mentioned script allows to generate and export interesting graphics ab
 * An histogram of *root diameter* to see differences in the distribution of apical relative to basal root diameters 
 * Individual *apical root diameter* and *ER* as function of *root length*, in groups of N roots (N to be specified by the user)
 * Individual *apical root diameter* and *ER* as function of *root age*, in groups of N roots (N to be specified by the user)
-
-
-
-
-
-
-
 
 
 
