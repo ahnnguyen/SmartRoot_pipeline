@@ -1,4 +1,3 @@
-.
 # Smart root script
 
 ## ICI renseigner le chemin vers le dossier de travail
